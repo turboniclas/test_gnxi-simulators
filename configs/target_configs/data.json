@@ -1,0 +1,30 @@
+{
+    "gcl:gate-parameter-table": {
+      "port": "swp3",
+      "queue-max-sdu": 0,
+      "gate-enabled": true,
+      "admin-gate-states": 255,
+      "gate-control-entry": [
+        {
+          "index": 0,
+          "time-interval-value": 200,
+          "gate-states-value": 255
+        },
+        {
+          "index": 1,
+          "time-interval-value": 100,
+          "gate-states-value": 0
+        }
+      ],
+      "admin-cycle-time": {
+        "numerator": 10000,
+        "denominator": 10000
+      },
+      "admin-cycle-time-extension": 10000,
+      "admin-base-time": {
+        "seconds": "10000",
+        "nanoseconds": 10000
+      },
+      "config-change": true
+    }
+}
